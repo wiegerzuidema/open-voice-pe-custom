@@ -1,7 +1,3 @@
-Let’s refine the README for your `Open-Voice-PE` project by focusing on the custom firmware aspects, removing any personal usage details (e.g., mentions of "Lora Lai"), and highlighting the two specific features you’ve added: support for `openWakeWord` and the ability to play back responses from a different media player. We’ll also include a roadmap mentioning the planned features (follow-up responses and wake word arbitration), link to the official Home Assistant Voice PE project, and remove sections that overlap with the standard firmware (e.g., hardware requirements, standard functionality like LED feedback, timers, and hardware interaction). Here’s the updated README:
-
----
-
 # Open Voice PE
 
 **Open Voice PE (Personal Edition)** is a custom firmware for the [Home Assistant Voice PE](https://github.com/esphome/home-assistant-voice-pe) project, built with ESPHome on an ESP32-S3. It extends the official Voice PE firmware with additional features for enhanced voice assistant functionality in Home Assistant.
