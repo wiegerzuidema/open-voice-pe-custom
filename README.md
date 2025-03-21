@@ -1,6 +1,6 @@
 # Open Voice PE
 
-**Open Voice PE** is a custom firmware for the [Home Assistant Voice PE](https://github.com/esphome/home-assistant-voice-pe) project, built with ESPHome on an ESP32-S3. It extends the official Voice PE firmware with additional features for enhanced voice assistant functionality in Home Assistant.
+**Open Voice PE** is a custom firmware for the [Home Assistant Voice Preview Edition](https://github.com/esphome/home-assistant-voice-pe) project, built with ESPHome on an ESP32-S3. It extends the official Voice PE firmware with additional features for enhanced voice assistant functionality in Home Assistant.
 
 This firmware is designed for users who want to customize their Voice PE device with advanced wake word detection and flexible TTS playback options.
 
