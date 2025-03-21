@@ -100,10 +100,5 @@ The following features are planned for future releases:
 - **Follow-Up Responses**: Enable the device to listen for additional commands after a response without requiring the wake word again.
 - **Wake Word Arbitration**: Improve wake word detection reliability by arbitrating between multiple wake word engines or instances.
 
-## Contributing
-**For Collaborators**: Clone the repo, create a branch (`git checkout -b feature/your-feature-name`), make/test changes, commit/push (`git push origin feature/your-feature-name`), and submit a pull request for review.
-
-**For Non-Collaborators**: Fork the repo, make changes in a branch, and submit a pull request.
-
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
