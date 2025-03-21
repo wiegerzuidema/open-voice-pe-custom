@@ -101,57 +101,9 @@ The following features are planned for future releases:
   - Check the mDNS address (`open-voice-pe.local`) resolves correctly on your network.
 
 ## Contributing
-Contributions are welcome! To contribute to Open Voice PE, please follow these steps:
+**For Collaborators**: Clone the repo, create a branch (`git checkout -b feature/your-feature-name`), make/test changes, commit/push (`git push origin feature/your-feature-name`), and submit a pull request for review.
 
-### For Collaborators
-If you’ve been invited as a collaborator to this repository, you can work directly on the project:
-1. **Clone the Repository**:
-   ```
-   git clone https://github.com/your-username/Open-Voice-PE.git
-   cd Open-Voice-PE
-   ```
-2. **Create a New Branch**:
-   - Create a branch for your feature or bug fix:
-     ```
-     git checkout -b feature/your-feature-name
-     ```
-3. **Make Your Changes**:
-   - Edit the `open-voice-pe.yaml` file or add new files as needed.
-   - Test your changes thoroughly (e.g., compile and upload the firmware, test wake word detection and TTS playback).
-4. **Commit and Push**:
-   - Commit your changes:
-     ```
-     git add .
-     git commit -m "Add your feature description"
-     ```
-   - Push your branch to the repository:
-     ```
-     git push origin feature/your-feature-name
-     ```
-5. **Create a Pull Request**:
-   - Go to the repository on GitHub.
-   - You’ll see a prompt to create a pull request for your branch. Click **Compare & pull request**.
-   - Provide a detailed description of your changes, including what you’ve added, why it’s useful, and any testing you’ve done.
-   - Submit the pull request for review.
-6. **Review and Approval**:
-   - The repository owner will review your pull request, test the changes, and provide feedback.
-   - Once approved, the changes will be merged into the `main` branch.
-
-### For Non-Collaborators
-If you’re not a collaborator, you can still contribute by forking the repository:
-1. Fork the repository by clicking the **Fork** button on GitHub.
-2. Clone your fork:
-   ```
-   git clone https://github.com/your-username/Open-Voice-PE.git
-   cd Open-Voice-PE
-   ```
-3. Create a new branch, make your changes, and push them to your fork (follow steps 2-4 above).
-4. Create a pull request from your fork to the main repository.
-
-### Development Tips
-- Use ESPHome’s logging (`logger.log`) to debug issues during development.
-- Test changes with a variety of voice commands to ensure compatibility with the Wyoming satellite.
-- When modifying TTS playback, verify functionality with both local and remote media players.
+**For Non-Collaborators**: Fork the repo, make changes in a branch, and submit a pull request.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
