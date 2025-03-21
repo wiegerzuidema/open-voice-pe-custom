@@ -107,8 +107,3 @@ The following features are planned for future releases:
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Built on top of the [Home Assistant Voice PE](https://github.com/esphome/home-assistant-voice-pe) project by ESPHome. Refer to the [official documentation](https://voice-pe.home-assistant.io) for more details on the Voice PE device.
-- Thanks to the Home Assistant community for their work on voice assistant integrations, including the Wyoming satellite and Assist pipeline.
-- Built with [ESPHome](https://esphome.io) for seamless integration with Home Assistant.
