@@ -72,6 +72,12 @@ This custom firmware adds the following features to the official Home Assistant 
 - Configure the Wyoming satellite in Home Assistant to enable voice assistant functionality:
   - Follow the [Wyoming Satellite Setup Guide](https://github.com/rhasspy/wyoming-satellite) to set up STT and TTS pipelines.
   - Configure your preferred wake word in the Wyoming satellite settings (this firmware supports `openWakeWord` for local wake word detection).
+- **Additional Configuration**: To enable TTS playback on remote media players:
+  1. In Home Assistant, go to **Settings > Devices & Services > Integrations**.
+  2. Find your ESPHome integration and click on the Open Voice PE device (e.g., `open-voice-pe`).
+  3. In the device settings, locate the option labeled **"Allow the device to perform Home Assistant actions"**.
+  4. Check this box and save the changes.
+     - **Note**: If this option is not enabled, the `media_player.play_media` service call will fail, and TTS responses will not play on remote media players.
 
 ### 7. Test the Custom Features
 - **Wake Word Detection with openWakeWord**:
