@@ -10,11 +10,6 @@ This custom firmware adds the following features to the official Home Assistant 
 - **Support for openWakeWord**: Enables local wake word detection using the `openWakeWord` engine, providing an alternative to the default wake word system for improved flexibility and privacy.
 - **TTS Playback on Different Media Players**: Allows you to play voice assistant responses on a remote media player (e.g., a Home Assistant media player entity) instead of the local speaker, configurable via a dropdown in Home Assistant.
 
-## Roadmap
-The following features are planned for future releases:
-- **Follow-Up Responses**: Enable the device to listen for additional commands after a response without requiring the wake word again.
-- **Wake Word Arbitration**: Improve wake word detection reliability by arbitrating between multiple wake word engines or instances.
-
 ## Prerequisites
 - **Official Home Assistant Voice PE**: This firmware is designed for the [Home Assistant Voice PE](https://github.com/esphome/home-assistant-voice-pe) device. Refer to the [official documentation](https://voice-pe.home-assistant.io) for hardware requirements, assembly instructions, and initial setup.
 - **Home Assistant**: A running instance of Home Assistant (version 2025.3.0 or later recommended) with the ESPHome integration installed.
@@ -99,6 +94,11 @@ The following features are planned for future releases:
   - Ensure the API encryption key in `secrets.yaml` matches the one used in Home Assistant.
   - Verify Wi-Fi credentials in `secrets.yaml` are correct.
   - Check the mDNS address (`open-voice-pe.local`) resolves correctly on your network.
+
+## Roadmap
+The following features are planned for future releases:
+- **Follow-Up Responses**: Enable the device to listen for additional commands after a response without requiring the wake word again.
+- **Wake Word Arbitration**: Improve wake word detection reliability by arbitrating between multiple wake word engines or instances.
 
 ## Contributing
 **For Collaborators**: Clone the repo, create a branch (`git checkout -b feature/your-feature-name`), make/test changes, commit/push (`git push origin feature/your-feature-name`), and submit a pull request for review.
