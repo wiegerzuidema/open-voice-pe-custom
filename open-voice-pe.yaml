@@ -1453,10 +1453,8 @@ external_components:
       url: https://github.com/esphome/home-assistant-voice-pe
       ref: dev
     components:
-      - microphone
-      - nabu_microphone
-      - voice_assistant
       - voice_kit
+    refresh: 0s
 
 ###### MICROPHONE ######
 microphone:
